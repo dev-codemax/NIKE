@@ -47,12 +47,11 @@ header {
 }
 
 .logo {
-  margin-left: 4vw;
+  margin-left: 3.3vw;
 }
 
 .logo img {
-  width: 110.61px;
-  height: 110.61px;
+  width: 55px;
 }
 
 .nav__link {
@@ -120,7 +119,7 @@ header {
 .line {
   position: absolute;
   width: 0;
-  top: 100px;
+  top: 120px;
   bottom: 91px;
   opacity: 0.3;
   border-inline-start: 2px dashed #000000;
@@ -147,18 +146,18 @@ header {
   font-family: "infomaline", sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: clamp(1px, 6vw + 4rem, 200px);
+  font-size: clamp(1px, 6vw + 3rem, 200px);
   text-align: center;
   letter-spacing: 0.09em;
   color: #22252b;
-  transform: translate(0px, 8vw);
+  transform: translate(0px, 4vw);
 }
 
 .subheading {
   display: flex;
   align-items: center;
   font-size: clamp(1px, 1vw + 0.5rem, 1rem);
-  transform: translateY(4vw);
+  transform: translateY(2vw);
   text-transform: uppercase;
   font-weight: 400;
   opacity: 0.5;
@@ -170,12 +169,12 @@ header {
 }
 
 .middle__shoe {
-  width: clamp(1px, 68vw + 9rem, 996.56px);
+  width: clamp(1px, 36vw + 8rem, 720px);
 }
 
 .right__shoe {
   position: absolute;
-  width: clamp(1px, 31.3vw + 2rem, 400px);
+  width: clamp(1px, 19vw + 2rem, 310px);
   right: 5vw;
   filter: blur(3px);
   transform: translateY(100px) rotate(20deg) scaleX(-1);
