@@ -92,7 +92,7 @@ header {
 
 .side__text {
   position: absolute;
-  bottom: 309px;
+  bottom: 400px;
   font-size: clamp(1px, calc(1vw + 0.5rem), 1rem);
   line-height: 1.5;
   letter-spacing: 0.08em;
@@ -146,11 +146,11 @@ header {
   font-family: "infomaline", sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: clamp(1px, 6vw + 3rem, 200px);
+  font-size: clamp(1px, 6vw + 2.3rem, 200px);
   text-align: center;
   letter-spacing: 0.09em;
   color: #22252b;
-  transform: translate(0px, 4vw);
+  transform: translateY(3.5vw);
 }
 
 .subheading {
@@ -170,6 +170,7 @@ header {
 
 .middle__shoe {
   width: clamp(1px, 36vw + 8rem, 720px);
+  z-index: 1;
 }
 
 .right__shoe {
@@ -178,7 +179,6 @@ header {
   right: 5vw;
   filter: blur(3px);
   transform: translateY(100px) rotate(20deg) scaleX(-1);
-  z-index: -1;
 }
 
 .bottom {
